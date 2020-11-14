@@ -1,0 +1,54 @@
+html, body, .container{overflow-: hidden; width: 100%; margin: 0; padding: 0; backgruond-color: #566}
+
+.for-bg{}
+
+.bg{
+	background: url(../img/bg.png);
+	background-size: 100% 100%;
+	background-position: 50% 0%;
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+	height: 100%
+}
+
+.logo{padding-left: 65px}
+
+.trim{
+	height: 50px; 
+	background-color: #f1eff0
+}
+
+.padd{height: 60px}
+
+.learn{color: #555; padding-top: 50px; margin-left: 15%; margin-right: 15%; font-size: 16px; padding-bottom: 20px}
+
+.gray{background-color: #f1eff0; margin: 0; padding: 0}
+
+.title{color: white; font-weight: 600; font-size: 74px; padding-top: 40px}
+
+.slogan{color: white; font-size: 18px; padding-top: 20px; margin-left: 20%; margin-right: 20%; padding-bottom: 40px}
+
+.footer{margin-top: 20px; height: 60px; color: #555; background-color: #2b2d34}
+
+.copy{margin-bottom: 20px; margin-top: 20px; color: white}
+
+.dgray{color: #566; background-color: #566; height: 2px;}
+
+/*property for the HTML input placeholder*/
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+/*property for reset button*/
+button[type="reset"]    {
+    background-color:transparent;
+    border:1px solid black;
+}
+
+/*Glyphicon color*/
+.blue   {
+    color: #80bfff;
+}
